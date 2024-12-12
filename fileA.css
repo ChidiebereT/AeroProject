@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    gap: 55%;
+    position: sticky;
+    top: 0;
+}
+header h2{
+    color: #f1f1f1;
+}
+nav{
+    display: flex;
+    
+}
+a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    gap: 50px;
+}
+main{
+    display: flex;
+    padding: 10px;
+}
+.textp{
+    padding: 8px;
+    background-color: rgb(204, 204, 112);
+}
+.textp p{
+    margin-top: 60px;
+    color: black;
+}
+
+.midhead{
+    padding: 37px;
+    background-color: black;
+}
+.midhead h1{
+    font-size: x-large;
+    text-align: center;
+    font-weight: 500;
+    color: #ffffff;
+}
+.cimages{
+    display: flex;
+    padding: 10px;
+    gap: 8px;
+    background-color: black;
+    margin-top: 2px;
+}
+.cimages div{
+    width: 100%;
+}
+.bodysect{
+    background-color: black;
+    margin-top: 7px;
+}
+.bodysect .stockhodl{
+    display: flex;
+    width: 100%;
+}
+.bodysect h4, p{
+    color: #ffffff;
+    font-size: 20px;
+}
+.rowlv{
+    display: flex;
+    gap: 4px;
+    /* margin-left: 33.5%; */
+    padding: 8px;
+    margin-top: -8px;
+}
+.rowlv .colv{
+    background-color: rgb(204, 204, 112);
+    padding: 20px;
+    width: 85%;
+}
+.facts{
+    background-color: black;
+    margin-top: -7px;
+    padding: 4px;
+}
+#abtus{
+    display: flex;
+    padding: 10px;
+}
+#abtus div{
+    width: 50%;
+    padding: 10px;
+}
+.dilo{
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.dilo h6{
+    font-size: 40px;
+    color: green;
+    text-align: center;
+}
+.dilo button{
+    padding: 12px;
+    background-color: green;
+    border: none;
+    color: #ffffff;
+    width: 185px;
+    border-radius: 10px;
+}
+.dilo button:hover{
+    opacity: .4;
+}
+
+.dilo2{
+    background-color: black;
+    text-align: center;
+}
+.dilo2 h6{
+    font-size: 40px;
+    color: green;
+}
+.dilo2 button{
+    padding: 12px;
+    background-color: green;
+    border: none;
+    color: #ffffff;
+    width: 185px;
+    border-radius: 10px;
+}
+.dilo2 button:hover{
+    opacity: .4;
+}
+#contus{
+    background-color: rgb(204, 204, 112);
+    text-align: center;
+    padding: 12px;
+}
+#contus button{
+    padding: 15px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+#contus button:hover{
+    opacity: .8;
+    
+}
+.emailset {
+    text-align: center;
+    background-color: black;
+}
+.emailset > h6 {
+    color: #f1f1f1;
+    font-size: 40px;
+}
+.emailset > p {
+    font-size: 30px;
+    color: rgb(204, 204, 112);
+    font-weight: 600;
+}
+.emailset > form > .emil{
+    padding: 8px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    color: rgb(141, 141, 65);
+}
+.emailset > form > button {
+    padding: 8px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(141, 141, 65);
+    margin-top: 3px;
+    color: #f1f1f1;
+    font-weight: 700;
+}
+
+footer{
+    display: flex;
+    background-color: #ffffff;
+    gap: 5px;
+    padding: 10px;
+}
+footer > div {
+    background-color: #f1f1f1;
+    text-align: left;
+    padding: 30px;
+}
+footer > div > p {
+    color: black;
+}
+footer > div > h5 {
+    color: rgb(141, 141, 65);
+    font-size: 35px;
+}
+.last {
+    background-color: rgb(141, 141, 65);
+    padding: 22px;
+}

@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.name {
+    padding: 30px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 8px;
+}
+.hobbies {
+    background-color: lightseagreen;
+    padding: 30px;
+    margin-top: 2px;
+    border-radius: 8px;
+}
+.hobbies > h2 {
+    font-size: 40px;
+    display: block;
+    background-color: black;
+    color: #f1f1f1;
+    border-radius: 5px;
+    text-align: center;
+}
+.hobbies > p {
+    font-size: 22px;
+    text-justify: distribute-all-lines;
+    color: white;
+    font-weight: 500;
+}
+.hobbies li {
+    color: white;
+    /* list-style: none; */
+}
+.images {
+    display: flex;
+    height: 45%;
+    background-color: #000;
+    padding: 20px;
+    margin: 10px;
+    gap: 1.5%;
+    border-radius: 8px;
+}
+.projects {
+    padding: 30px;
+    background-color: #f1f1f1;
+}
+.projects h5 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.wanttoflex {
+    display: flex;
+    margin: 20px;
+    gap: 2.5%;
+    padding: 10px;
+    border-radius: 5px;
+}
+footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 2px;
+}
+.bottomline {
+    padding: 30px;
+    background-color: lightseagreen;
+    text-align: center;
+}
+.bottomline h2 {
+    text-align: center;
+    color: white;
+}
+.bottomline textarea {
+    width: 95%;
+    height: 55vh;
+    padding: 15px;
+    border: none;
+}
+.bottomline button {
+    padding: 5px;
+    width: 50%;
+    background-color: #000;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+}
